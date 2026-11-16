@@ -10,10 +10,11 @@ window.IZ_CUSTOM_CONFIG = {
 
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatTooltipModule } from '@angular/material/tooltip';
 @Component({
   selector: 'app-external-search',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,MatTooltipModule],
   templateUrl: './external-search.component.html', 
   styleUrls: ['./external-search.component.scss']
 })
